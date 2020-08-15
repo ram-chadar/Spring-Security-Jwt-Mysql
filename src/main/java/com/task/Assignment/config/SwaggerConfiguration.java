@@ -29,7 +29,7 @@ public class SwaggerConfiguration extends WebMvcConfigurationSupport {
 
    private ApiInfo apiInfo() {
        return new ApiInfoBuilder()              
-               .title("REST API")
+               .title("REST API With Jwt")
                .description("Servicesx")               
                .build();
    }
